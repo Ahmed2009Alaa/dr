@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>صيدلية د. عبدالرحمن أسامة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #0a85c1, #0b3f56);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            padding: 40px;
+            color: #fff;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .card {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            padding: 40px;
+            gap: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        .left {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .right {
+            flex: 1;
+            min-width: 280px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .title {
+            font-size: 46px;
+            font-weight: 800;
+            margin-bottom: 15px;
+            color: #fff;
+            text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .subtitle {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #f7e9e9;
+        }
+
+        .contact {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            padding: 15px 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .phone {
+            font-size: 30px;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .cta {
+            display: inline-block;
+            background: linear-gradient(90deg, #ff4b2b, #ff416c);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            margin-top: 10px;
+            box-shadow: 0 8px 20px rgba(255, 65, 108, 0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .cta:hover {
+            transform: scale(1.05);
+        }
+
+        .logo {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #fff, #e3f6ff);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+            text-align: center;
+        }
+
+        .logo-icon {
+            font-size: 70px;
+            color: #0a85c1;
+            margin-bottom: 10px;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: 800;
+            color: #05283a;
+            line-height: 1.4;
+        }
+
+        .logo-sub {
+            font-size: 15px;
+            color: #c53b3b;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="left">
+            <div class="title">صيدلية د. عبدالرحمن أسامة</div>
+            <div class="subtitle">💖 نخدمكم بقلوبنا قبل أدويتنا 💊</div>
+            <div class="contact">
+                <div class="phone">📞 01024067648</div>
+                <div>لطلب واستفسار — صيدلية د. عبدالرحمن أسامة</div>
+            </div>
+            <a href="tel:01024067648" class="cta">اتصل الآن</a>
+        </div>
+        <div class="right">
+            <div class="logo">
+                <div class="logo-icon">💊</div>
+                <div class="logo-text">Dr. ABDURHMAN<br>OSAMA</div>
+                <div class="logo-sub">PHARMACY</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
